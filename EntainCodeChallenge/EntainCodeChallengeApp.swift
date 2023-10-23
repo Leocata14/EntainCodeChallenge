@@ -11,7 +11,9 @@ import SwiftUI
 struct EntainCodeChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                RaceListView(viewModel: RaceListViewModel())
+            }
         }
     }
 }

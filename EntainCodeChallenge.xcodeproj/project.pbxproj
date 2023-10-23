@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF05E72B2AE231EA00A4A12F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E72A2AE231EA00A4A12F /* Helpers.swift */; };
+		BF05E72D2AE234EE00A4A12F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E72C2AE234EE00A4A12F /* AppConstants.swift */; };
+		BF05E72F2AE2368C00A4A12F /* RaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E72E2AE2368C00A4A12F /* RaceType.swift */; };
+		BF4F87112AE524F1000B811F /* RaceSummaryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F87102AE524F1000B811F /* RaceSummaryMock.swift */; };
+		BF4F87122AE5250E000B811F /* RaceServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD72D2AE1CD68009DDA2F /* RaceServerResponse.swift */; };
+		BF4F87132AE5250E000B811F /* AdvertisedStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7332AE1D3F6009DDA2F /* AdvertisedStart.swift */; };
+		BF4F87142AE5250E000B811F /* RaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD72F2AE1D3D4009DDA2F /* RaceData.swift */; };
+		BF4F87152AE5250E000B811F /* RaceSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7312AE1D3E4009DDA2F /* RaceSummary.swift */; };
+		BF4F87172AE526A2000B811F /* RaceServerResponseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F87162AE526A2000B811F /* RaceServerResponseMock.swift */; };
+		BF4F87192AE526DB000B811F /* RaceDataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F87182AE526DB000B811F /* RaceDataMock.swift */; };
+		BF4F871B2AE527CB000B811F /* MockRaceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F871A2AE527CB000B811F /* MockRaceAPIClient.swift */; };
+		BF4F871C2AE527D8000B811F /* RaceClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD399A82AE358C3006AA034 /* RaceClientType.swift */; };
+		BF4F871E2AE529A5000B811F /* RaceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7392AE1D480009DDA2F /* RaceAPIClient.swift */; };
+		BF4F87202AE529B9000B811F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E72C2AE234EE00A4A12F /* AppConstants.swift */; };
+		BF4F87212AE529B9000B811F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E72A2AE231EA00A4A12F /* Helpers.swift */; };
+		BF4F87232AE5E59F000B811F /* AdvertisedStartMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F87222AE5E59F000B811F /* AdvertisedStartMock.swift */; };
+		BF4F87252AE6078B000B811F /* RaceListFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F87242AE6078B000B811F /* RaceListFooterView.swift */; };
+		BF4F87272AE607C0000B811F /* RaceListFooterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F87262AE607C0000B811F /* RaceListFooterViewModel.swift */; };
+		BFD399A92AE358C3006AA034 /* RaceClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD399A82AE358C3006AA034 /* RaceClientType.swift */; };
+		BFD399AB2AE35C2E006AA034 /* RaceListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD399AA2AE35C2E006AA034 /* RaceListHeaderView.swift */; };
+		BFD399AD2AE35C35006AA034 /* RaceListHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD399AC2AE35C35006AA034 /* RaceListHeaderViewModel.swift */; };
+		BFD399B12AE360E6006AA034 /* RaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05E72E2AE2368C00A4A12F /* RaceType.swift */; };
+		BFD399B22AE36245006AA034 /* RaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7472AE1DD3F009DDA2F /* RaceListViewModel.swift */; };
+		BFD399B32AE36255006AA034 /* RaceCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD74C2AE1EE5E009DDA2F /* RaceCellViewModel.swift */; };
 		BFEAD7032AE1CD53009DDA2F /* EntainCodeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7022AE1CD53009DDA2F /* EntainCodeChallengeApp.swift */; };
-		BFEAD7052AE1CD53009DDA2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7042AE1CD53009DDA2F /* ContentView.swift */; };
 		BFEAD7072AE1CD54009DDA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEAD7062AE1CD54009DDA2F /* Assets.xcassets */; };
 		BFEAD70A2AE1CD54009DDA2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEAD7092AE1CD54009DDA2F /* Preview Assets.xcassets */; };
 		BFEAD7142AE1CD55009DDA2F /* EntainCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7132AE1CD55009DDA2F /* EntainCodeChallengeTests.swift */; };
-		BFEAD71E2AE1CD55009DDA2F /* EntainCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD71D2AE1CD55009DDA2F /* EntainCodeChallengeUITests.swift */; };
-		BFEAD7202AE1CD55009DDA2F /* EntainCodeChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD71F2AE1CD55009DDA2F /* EntainCodeChallengeUITestsLaunchTests.swift */; };
+		BFEAD72E2AE1CD68009DDA2F /* RaceServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD72D2AE1CD68009DDA2F /* RaceServerResponse.swift */; };
+		BFEAD7302AE1D3D4009DDA2F /* RaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD72F2AE1D3D4009DDA2F /* RaceData.swift */; };
+		BFEAD7322AE1D3E4009DDA2F /* RaceSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7312AE1D3E4009DDA2F /* RaceSummary.swift */; };
+		BFEAD7342AE1D3F6009DDA2F /* AdvertisedStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7332AE1D3F6009DDA2F /* AdvertisedStart.swift */; };
+		BFEAD73A2AE1D480009DDA2F /* RaceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7392AE1D480009DDA2F /* RaceAPIClient.swift */; };
+		BFEAD7462AE1DD30009DDA2F /* RaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7452AE1DD30009DDA2F /* RaceListView.swift */; };
+		BFEAD7482AE1DD3F009DDA2F /* RaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD7472AE1DD3F009DDA2F /* RaceListViewModel.swift */; };
+		BFEAD74B2AE1EE52009DDA2F /* RaceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD74A2AE1EE52009DDA2F /* RaceCellView.swift */; };
+		BFEAD74D2AE1EE5E009DDA2F /* RaceCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEAD74C2AE1EE5E009DDA2F /* RaceCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +54,38 @@
 			remoteGlobalIDString = BFEAD6FE2AE1CD53009DDA2F;
 			remoteInfo = EntainCodeChallenge;
 		};
-		BFEAD71A2AE1CD55009DDA2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFEAD6F72AE1CD53009DDA2F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFEAD6FE2AE1CD53009DDA2F;
-			remoteInfo = EntainCodeChallenge;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF05E72A2AE231EA00A4A12F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		BF05E72C2AE234EE00A4A12F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		BF05E72E2AE2368C00A4A12F /* RaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceType.swift; sourceTree = "<group>"; };
+		BF4F87102AE524F1000B811F /* RaceSummaryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceSummaryMock.swift; sourceTree = "<group>"; };
+		BF4F87162AE526A2000B811F /* RaceServerResponseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceServerResponseMock.swift; sourceTree = "<group>"; };
+		BF4F87182AE526DB000B811F /* RaceDataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceDataMock.swift; sourceTree = "<group>"; };
+		BF4F871A2AE527CB000B811F /* MockRaceAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRaceAPIClient.swift; sourceTree = "<group>"; };
+		BF4F87222AE5E59F000B811F /* AdvertisedStartMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisedStartMock.swift; sourceTree = "<group>"; };
+		BF4F87242AE6078B000B811F /* RaceListFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListFooterView.swift; sourceTree = "<group>"; };
+		BF4F87262AE607C0000B811F /* RaceListFooterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListFooterViewModel.swift; sourceTree = "<group>"; };
+		BF4F87282AE60F81000B811F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BFD399A82AE358C3006AA034 /* RaceClientType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceClientType.swift; sourceTree = "<group>"; };
+		BFD399AA2AE35C2E006AA034 /* RaceListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListHeaderView.swift; sourceTree = "<group>"; };
+		BFD399AC2AE35C35006AA034 /* RaceListHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListHeaderViewModel.swift; sourceTree = "<group>"; };
 		BFEAD6FF2AE1CD53009DDA2F /* EntainCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EntainCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEAD7022AE1CD53009DDA2F /* EntainCodeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainCodeChallengeApp.swift; sourceTree = "<group>"; };
-		BFEAD7042AE1CD53009DDA2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFEAD7062AE1CD54009DDA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFEAD7092AE1CD54009DDA2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFEAD70F2AE1CD55009DDA2F /* EntainCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEAD7132AE1CD55009DDA2F /* EntainCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainCodeChallengeTests.swift; sourceTree = "<group>"; };
-		BFEAD7192AE1CD55009DDA2F /* EntainCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFEAD71D2AE1CD55009DDA2F /* EntainCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainCodeChallengeUITests.swift; sourceTree = "<group>"; };
-		BFEAD71F2AE1CD55009DDA2F /* EntainCodeChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainCodeChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFEAD72D2AE1CD68009DDA2F /* RaceServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceServerResponse.swift; sourceTree = "<group>"; };
+		BFEAD72F2AE1D3D4009DDA2F /* RaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceData.swift; sourceTree = "<group>"; };
+		BFEAD7312AE1D3E4009DDA2F /* RaceSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceSummary.swift; sourceTree = "<group>"; };
+		BFEAD7332AE1D3F6009DDA2F /* AdvertisedStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisedStart.swift; sourceTree = "<group>"; };
+		BFEAD7392AE1D480009DDA2F /* RaceAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceAPIClient.swift; sourceTree = "<group>"; };
+		BFEAD7452AE1DD30009DDA2F /* RaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListView.swift; sourceTree = "<group>"; };
+		BFEAD7472AE1DD3F009DDA2F /* RaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewModel.swift; sourceTree = "<group>"; };
+		BFEAD74A2AE1EE52009DDA2F /* RaceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCellView.swift; sourceTree = "<group>"; };
+		BFEAD74C2AE1EE5E009DDA2F /* RaceCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +103,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFEAD7162AE1CD55009DDA2F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF05E7282AE20FEB00A4A12F /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAD74A2AE1EE52009DDA2F /* RaceCellView.swift */,
+				BFEAD74C2AE1EE5E009DDA2F /* RaceCellViewModel.swift */,
+				BFD399AA2AE35C2E006AA034 /* RaceListHeaderView.swift */,
+				BFD399AC2AE35C35006AA034 /* RaceListHeaderViewModel.swift */,
+				BF4F87242AE6078B000B811F /* RaceListFooterView.swift */,
+				BF4F87262AE607C0000B811F /* RaceListFooterViewModel.swift */,
+			);
+			path = "Support Views";
+			sourceTree = "<group>";
+		};
+		BF05E7292AE231E100A4A12F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF05E72A2AE231EA00A4A12F /* Helpers.swift */,
+				BF05E72C2AE234EE00A4A12F /* AppConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BF4F871D2AE52895000B811F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAD7132AE1CD55009DDA2F /* EntainCodeChallengeTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BFD399AE2AE35FC5006AA034 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				BF4F87162AE526A2000B811F /* RaceServerResponseMock.swift */,
+				BF4F87182AE526DB000B811F /* RaceDataMock.swift */,
+				BF4F87102AE524F1000B811F /* RaceSummaryMock.swift */,
+				BF4F87222AE5E59F000B811F /* AdvertisedStartMock.swift */,
+				BF4F871A2AE527CB000B811F /* MockRaceAPIClient.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		BFEAD6F62AE1CD53009DDA2F = {
 			isa = PBXGroup;
 			children = (
 				BFEAD7012AE1CD53009DDA2F /* EntainCodeChallenge */,
 				BFEAD7122AE1CD55009DDA2F /* EntainCodeChallengeTests */,
-				BFEAD71C2AE1CD55009DDA2F /* EntainCodeChallengeUITests */,
 				BFEAD7002AE1CD53009DDA2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +162,6 @@
 			children = (
 				BFEAD6FF2AE1CD53009DDA2F /* EntainCodeChallenge.app */,
 				BFEAD70F2AE1CD55009DDA2F /* EntainCodeChallengeTests.xctest */,
-				BFEAD7192AE1CD55009DDA2F /* EntainCodeChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +169,10 @@
 		BFEAD7012AE1CD53009DDA2F /* EntainCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				BF4F87282AE60F81000B811F /* Info.plist */,
+				BF05E7292AE231E100A4A12F /* Helpers */,
+				BFEAD7442AE1DD18009DDA2F /* RaceList */,
 				BFEAD7022AE1CD53009DDA2F /* EntainCodeChallengeApp.swift */,
-				BFEAD7042AE1CD53009DDA2F /* ContentView.swift */,
 				BFEAD7062AE1CD54009DDA2F /* Assets.xcassets */,
 				BFEAD7082AE1CD54009DDA2F /* Preview Content */,
 			);
@@ -113,18 +190,59 @@
 		BFEAD7122AE1CD55009DDA2F /* EntainCodeChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				BFEAD7132AE1CD55009DDA2F /* EntainCodeChallengeTests.swift */,
+				BFD399AE2AE35FC5006AA034 /* Mocks */,
+				BF4F871D2AE52895000B811F /* Tests */,
 			);
 			path = EntainCodeChallengeTests;
 			sourceTree = "<group>";
 		};
-		BFEAD71C2AE1CD55009DDA2F /* EntainCodeChallengeUITests */ = {
+		BFEAD72C2AE1CD5D009DDA2F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BFEAD71D2AE1CD55009DDA2F /* EntainCodeChallengeUITests.swift */,
-				BFEAD71F2AE1CD55009DDA2F /* EntainCodeChallengeUITestsLaunchTests.swift */,
+				BFEAD72D2AE1CD68009DDA2F /* RaceServerResponse.swift */,
+				BFEAD72F2AE1D3D4009DDA2F /* RaceData.swift */,
+				BFEAD7312AE1D3E4009DDA2F /* RaceSummary.swift */,
+				BFEAD7332AE1D3F6009DDA2F /* AdvertisedStart.swift */,
+				BF05E72E2AE2368C00A4A12F /* RaceType.swift */,
 			);
-			path = EntainCodeChallengeUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFEAD7352AE1D44A009DDA2F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAD74E2AE20BAF009DDA2F /* Clients */,
+				BFEAD72C2AE1CD5D009DDA2F /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BFEAD7442AE1DD18009DDA2F /* RaceList */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAD7352AE1D44A009DDA2F /* Data */,
+				BFEAD7492AE1EE34009DDA2F /* Presentation */,
+			);
+			path = RaceList;
+			sourceTree = "<group>";
+		};
+		BFEAD7492AE1EE34009DDA2F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BF05E7282AE20FEB00A4A12F /* Support Views */,
+				BFEAD7452AE1DD30009DDA2F /* RaceListView.swift */,
+				BFEAD7472AE1DD3F009DDA2F /* RaceListViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		BFEAD74E2AE20BAF009DDA2F /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				BFD399A82AE358C3006AA034 /* RaceClientType.swift */,
+				BFEAD7392AE1D480009DDA2F /* RaceAPIClient.swift */,
+			);
+			path = Clients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +283,6 @@
 			productReference = BFEAD70F2AE1CD55009DDA2F /* EntainCodeChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BFEAD7182AE1CD55009DDA2F /* EntainCodeChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFEAD7292AE1CD55009DDA2F /* Build configuration list for PBXNativeTarget "EntainCodeChallengeUITests" */;
-			buildPhases = (
-				BFEAD7152AE1CD55009DDA2F /* Sources */,
-				BFEAD7162AE1CD55009DDA2F /* Frameworks */,
-				BFEAD7172AE1CD55009DDA2F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFEAD71B2AE1CD55009DDA2F /* PBXTargetDependency */,
-			);
-			name = EntainCodeChallengeUITests;
-			productName = EntainCodeChallengeUITests;
-			productReference = BFEAD7192AE1CD55009DDA2F /* EntainCodeChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +297,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					BFEAD70E2AE1CD55009DDA2F = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = BFEAD6FE2AE1CD53009DDA2F;
-					};
-					BFEAD7182AE1CD55009DDA2F = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = BFEAD6FE2AE1CD53009DDA2F;
 					};
@@ -221,7 +317,6 @@
 			targets = (
 				BFEAD6FE2AE1CD53009DDA2F /* EntainCodeChallenge */,
 				BFEAD70E2AE1CD55009DDA2F /* EntainCodeChallengeTests */,
-				BFEAD7182AE1CD55009DDA2F /* EntainCodeChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +338,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFEAD7172AE1CD55009DDA2F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,7 +345,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEAD7052AE1CD53009DDA2F /* ContentView.swift in Sources */,
+				BFEAD72E2AE1CD68009DDA2F /* RaceServerResponse.swift in Sources */,
+				BFEAD7342AE1D3F6009DDA2F /* AdvertisedStart.swift in Sources */,
+				BFEAD7462AE1DD30009DDA2F /* RaceListView.swift in Sources */,
+				BFEAD73A2AE1D480009DDA2F /* RaceAPIClient.swift in Sources */,
+				BFD399A92AE358C3006AA034 /* RaceClientType.swift in Sources */,
+				BF05E72B2AE231EA00A4A12F /* Helpers.swift in Sources */,
+				BFEAD7322AE1D3E4009DDA2F /* RaceSummary.swift in Sources */,
+				BFEAD7482AE1DD3F009DDA2F /* RaceListViewModel.swift in Sources */,
+				BF05E72F2AE2368C00A4A12F /* RaceType.swift in Sources */,
+				BF05E72D2AE234EE00A4A12F /* AppConstants.swift in Sources */,
+				BF4F87252AE6078B000B811F /* RaceListFooterView.swift in Sources */,
+				BFEAD74B2AE1EE52009DDA2F /* RaceCellView.swift in Sources */,
+				BFEAD7302AE1D3D4009DDA2F /* RaceData.swift in Sources */,
+				BFEAD74D2AE1EE5E009DDA2F /* RaceCellViewModel.swift in Sources */,
+				BFD399AB2AE35C2E006AA034 /* RaceListHeaderView.swift in Sources */,
+				BFD399AD2AE35C35006AA034 /* RaceListHeaderViewModel.swift in Sources */,
+				BF4F87272AE607C0000B811F /* RaceListFooterViewModel.swift in Sources */,
 				BFEAD7032AE1CD53009DDA2F /* EntainCodeChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,16 +370,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4F871C2AE527D8000B811F /* RaceClientType.swift in Sources */,
+				BF4F87122AE5250E000B811F /* RaceServerResponse.swift in Sources */,
+				BF4F871E2AE529A5000B811F /* RaceAPIClient.swift in Sources */,
+				BF4F87232AE5E59F000B811F /* AdvertisedStartMock.swift in Sources */,
+				BF4F87112AE524F1000B811F /* RaceSummaryMock.swift in Sources */,
+				BFD399B12AE360E6006AA034 /* RaceType.swift in Sources */,
+				BFD399B22AE36245006AA034 /* RaceListViewModel.swift in Sources */,
+				BF4F871B2AE527CB000B811F /* MockRaceAPIClient.swift in Sources */,
+				BF4F87172AE526A2000B811F /* RaceServerResponseMock.swift in Sources */,
+				BF4F87192AE526DB000B811F /* RaceDataMock.swift in Sources */,
 				BFEAD7142AE1CD55009DDA2F /* EntainCodeChallengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFEAD7152AE1CD55009DDA2F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFEAD7202AE1CD55009DDA2F /* EntainCodeChallengeUITestsLaunchTests.swift in Sources */,
-				BFEAD71E2AE1CD55009DDA2F /* EntainCodeChallengeUITests.swift in Sources */,
+				BF4F87212AE529B9000B811F /* Helpers.swift in Sources */,
+				BF4F87202AE529B9000B811F /* AppConstants.swift in Sources */,
+				BF4F87152AE5250E000B811F /* RaceSummary.swift in Sources */,
+				BF4F87132AE5250E000B811F /* AdvertisedStart.swift in Sources */,
+				BF4F87142AE5250E000B811F /* RaceData.swift in Sources */,
+				BFD399B32AE36255006AA034 /* RaceCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +397,6 @@
 			isa = PBXTargetDependency;
 			target = BFEAD6FE2AE1CD53009DDA2F /* EntainCodeChallenge */;
 			targetProxy = BFEAD7102AE1CD55009DDA2F /* PBXContainerItemProxy */;
-		};
-		BFEAD71B2AE1CD55009DDA2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFEAD6FE2AE1CD53009DDA2F /* EntainCodeChallenge */;
-			targetProxy = BFEAD71A2AE1CD55009DDA2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,9 +526,9 @@
 				DEVELOPMENT_TEAM = H3A77962QT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EntainCodeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +555,9 @@
 				DEVELOPMENT_TEAM = H3A77962QT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EntainCodeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,42 +613,6 @@
 			};
 			name = Release;
 		};
-		BFEAD72A2AE1CD55009DDA2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H3A77962QT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleocata.EntainCodeChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EntainCodeChallenge;
-			};
-			name = Debug;
-		};
-		BFEAD72B2AE1CD55009DDA2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H3A77962QT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleocata.EntainCodeChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EntainCodeChallenge;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +639,6 @@
 			buildConfigurations = (
 				BFEAD7272AE1CD55009DDA2F /* Debug */,
 				BFEAD7282AE1CD55009DDA2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BFEAD7292AE1CD55009DDA2F /* Build configuration list for PBXNativeTarget "EntainCodeChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFEAD72A2AE1CD55009DDA2F /* Debug */,
-				BFEAD72B2AE1CD55009DDA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
